@@ -269,7 +269,7 @@ function Events() {
   
    
     return(
-        <div style={{"color":"white",  "overflow": "hidden" }}>
+        <div id="events" style={{"color":"white",  "overflow": "hidden" }}>
                     <Offcanvas show={show} onHide={handleClose} placement="end" style={{"fontWeight":"700","fontFamily": "'Source Code Pro', monospace","fontSize":"1rem"}} id="offBack">
                         <Offcanvas.Header closeButton>
                         <Offcanvas.Title style={{"fontWeight":"700","fontFamily": "'Source Code Pro', monospace","fontSize":"2rem"}}>{eventNames[isEvent-1]}</Offcanvas.Title>

@@ -16,7 +16,7 @@ import nidhi from './Helpers/nidhi.jpg'
 import peer from './Helpers/peer.jpg'
 const Team = () => {
     return (
-        <div  ><br></br><br></br>
+        <div id='contact'  ><br></br><br></br>
             <h1 style={{"fontWeight":"700","fontFamily": "'Source Code Pro', monospace","color":"white"}}>MEET OUR TEAM</h1><br></br>
             <div className="container text-center" style={{"fontWeight":"500","fontFamily": "'Source Code Pro', monospace"}}>
                 <div className="row gx-5 gy-5">

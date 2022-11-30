@@ -93,7 +93,7 @@ function About() {
   }
 
     return(
-        <div style={{"overflow": "hidden"}}>
+        <div id="home" style={{"overflow": "hidden"}}>
             <div className="container-fluid text-center">
             <Offcanvas show={show} onHide={handleClose} style={{"fontFamily": "'Source Code Pro', monospace","fontSize": "1.1rem"}}>
                   <Offcanvas.Header closeButton>
@@ -196,8 +196,10 @@ function About() {
                     <div className="col-12 col-lg-7" style={{"padding": "4%", "color": "white","fontFamily": "'Source Code Pro', monospace","fontSize": "1.1rem"}}>
                      <p id="typeW">{`New Horizon College of Engineering, Bangalore presents QuantumX-22, a 3-day tech fest and the first one to ever be hosted in the NHCE campus, from 8th-10th December. Over the duration of three days, the fest offers students from all around Bangalore a series of events, from a 24 hour hackathon to a drone race, from hacker series to robo wars. Along with those, a bunch of workshops and guest talks awaits the minds eager to gain knowledge.`}
                      </p><br></br>
+                     <div id="book">
                      <button type="button" className="btn btn-light btn-lg" onClick={handleShow} id="bookPass"
                      style={{"margin":"10%","width":"80%","height":"20%","fontFamily": "'Source Code Pro', monospace","fontSize": "2.2rem","fontWeight":"700","filter": "drop-shadow(0 0 0.3rem white)"}}>BOOK PASSES NOW!</button>
+                     </div>
                     </div>
                 </div>
                 </div>

@@ -2,7 +2,7 @@ import aicte from './Helpers/aicte.png'
 import ieee from './Helpers/ieee.png'
 const Sponsors = () => {
     return (
-        <div style={{"color":"white"}}>
+        <div id='sponsors' style={{"color":"white"}}>
         <h1 style={{"fontWeight":"700","fontFamily": "'Source Code Pro', monospace"}}>OUR SPONSORS</h1>
         <br></br>
         <h3 style={{"fontWeight":"700","fontFamily": "'Source Code Pro', monospace"}}>GOLD TIER</h3><br></br>
