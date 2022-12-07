@@ -352,8 +352,10 @@ function Events() {
                         <div className="col col-md-10 col-12">
                         <Filler time="9:00AM" content={content['EXH']} eventName="EXHIBITION"handleClick={handleClick} handleShow={handleShow} eventNum={21} oddEven={0}/>
                         <br></br>
+{/*
                         <Filler time="9:00AM" content={content['DSW']} eventName="DATA SCIENCE WORKSHOP"handleClick={handleClick} handleShow={handleShow} eventNum={22}  oddEven={1}/>
-                        <br></br>                    
+*/}
+                        <br></br>
                         </div>
                     </div>
             </div>

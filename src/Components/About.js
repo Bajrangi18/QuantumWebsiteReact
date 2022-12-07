@@ -44,10 +44,11 @@ function About() {
       const eventName = document.getElementById("optionsDown").value
       const email = document.getElementById("email").value
       const ieee = document.getElementById("flexCheckDefault").checked
-      if(name!=undefined && phone!=undefined && collegeName!=undefined && state!=undefined 
+      if(name!=undefined && phone!=undefined && collegeName!=undefined && state!=undefined
         && city!=undefined && remName!=undefined && amount!=undefined && transID!=undefined && eventName!="SELECT EVENT" && email!=undefined && file!="" && filesName!="" ){
-                
-      const spacePath =  (eventName+name[0]+name[1]+name[2]+phone[0]+phone[2]+phone[4]+phone[6]+phone[8]+(Math.floor(Math.random() * 10))+(Math.floor(Math.random() * 10))+(Math.floor(Math.random() * 10))) 
+
+
+      const spacePath =  (eventName+name[0]+name[1]+name[2]+phone[0]+phone[2]+phone[4]+phone[6]+phone[8]+(Math.floor(Math.random() * 10))+(Math.floor(Math.random() * 10))+(Math.floor(Math.random() * 10)))
       // const storageRef = sRef(storage,`Screenshots/${imageUpload.name + v4()}`);
       const storageRef = sRef(storage,`Screenshots/`+spacePath);
 
@@ -68,7 +69,7 @@ function About() {
         paraElement.style.color = "black"
         paraElement.style.textAlign = "left"
         document.getElementById("submitButton").append(paraElement)
-        
+
       });
 
 
@@ -84,12 +85,11 @@ function About() {
         transactionID: transID,
         eventName: eventName,
         isIEEE: ieee,
-      });   
+      });
       document.getElementById("subDis").disabled = true;
       }else{
         alert("Some of the Inputs are Blank!")
       }
-
   }
 
     return(
@@ -154,7 +154,6 @@ function About() {
                 <option value="IDE">IDEASTORM</option>
                 <option value="DRC">DRONE RACE</option>
                 <option value="FSV">FAST SERVICE</option>
-                <option value="CBD">CHATBOT DEVELOPMENT WORKSHOP</option>
                 <option value="HCKS">HACKER SERIES</option>
                 <option value="RBS">ROBO SOCCER</option>
                 <option value="RBW">ROBOTICS WORKSHOP</option>
@@ -163,10 +162,11 @@ function About() {
                 <option value="BMM">BEST MANAGER</option>
                 <option value="WZDS">WIZARDS OF DALAL STREET</option>
                 <option value="RCR">FULL THROTTLE</option>
-                <option value="ETHW">ETHICAL HACKING WORKSHOP</option>
                 <option value="ARDW">ARDUINO WORKSHOP</option>
                 <option value="ROBW">BATTLE BOTS</option>
                 <option value="DRFS">LIFT-OFF</option>
+                <option value="FWG">FIXED WING RC</option>
+                <option value="EXHB">EXHIBITION</option>
               </Form.Select><br></br>
               <div className="input-group mb-3">
                   <input onChange={(event)=> {
